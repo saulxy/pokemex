@@ -1,8 +1,8 @@
 # Pokemex
-Online Spanish Pokedex (Even when is documented in English). The main goal is have an easy way to check a full pokedex from your computer. 
+Online Spanish Pokedex (Even when is documented in English). The main goal is to have an easy way to check a full pokedex from your computer. 
 
 # Setting up your workspace
-No additional steps needed. Just get all the dependencies and run:
+No additional steps needed. Just get all the dependencies and run to test:
 ```
 DEBUG=pokemex:* npm start
 ```
@@ -11,4 +11,4 @@ DEBUG=pokemex:* npm start
 
 ### Pokémon
 
-Pokémon images, names and information (c) 1995-2014 Nintendo/Game freak.
+Pokémon images, names and information (c) 1995-2018 Nintendo/Game freak.
