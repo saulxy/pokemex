@@ -1,0 +1,179 @@
+/*
+  Color theme: https://coolors.co/
+  coolors.co/4381c1-c5d1eb-92afd7-5a7684-4e4b5c 
+*/
+body{
+  background: url('resources/dadbe48e.png') repeat;
+}
+
+#loading{
+  width: 100%;
+  background: rgba(242,242,242,0.60);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+nav{
+  background-color: transparent;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 4.5em;
+  z-index: 3;
+  margin:0;
+}
+
+nav input[type='search']{
+  background-color: #FFFCFC;
+}
+
+.container{
+  margin-top: 3.5em;
+}
+
+.profile{
+  background-color: #4381C1;
+  color: #C5D1EB;
+  border-radius: 1.2em 0 1.2em 0;
+  width: 14em;
+  height: 14em;
+  display: inline-block;
+  margin: 1em;
+}
+
+.profile h2{
+  border-radius: 1em 0 0 0;
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: #C5D1EB;
+  margin: 0 auto;
+  color: #4E4B5C;
+}
+
+.profile h2 span{
+  float:right;
+}
+
+.profile ul{
+  margin: 0;
+}
+
+.profile li.type{
+  padding: 0.4em;
+  color: white;
+  border-radius: 0.5em;
+  display: inline-block;
+  margin: 0.5em;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+.profile li.normal{
+  background-color: #A8A878;
+}
+.profile li.normal:after {content: 'Normal';}
+
+.profile li.fire{
+  background-color: #F08030;
+}
+.profile li.fire:after {content: 'Fire';}
+
+.profile li.fighting{
+  background-color: #C03028;
+}
+.profile li.fighting:after {content: 'Fighting';}
+
+.profile li.water{
+  background-color: #6890F0;
+}
+.profile li.water:after {content: 'Water';}
+
+.profile li.flying{
+  background-color: #A890F0;
+}
+.profile li.flying:after {content: 'Flying';}
+
+ 
+.profile li.poison{
+  background-color: #A040A0;
+}
+.profile li.poison:after {content: 'Poison';}
+
+.profile li.grass{
+  background-color: #78C850;
+}
+.profile li.grass:after {content: 'Grass';}
+
+.profile li.electric{
+  background-color: #F8D030;
+}
+.profile li.electric:after {content: 'Electric';}
+
+.profile li.ground{
+  background-color: #E0C068;
+}
+.profile li.ground:after {content: 'Ground';}
+
+.profile li.psychic{
+  background-color: #F85888;
+}
+.profile li.psychic:after {content: 'Psychic';}
+ 
+.profile li.rock{
+  background-color: #B8A038;
+}
+.profile li.rock:after {content: 'Rock';}
+
+.profile li.ice{
+  background-color: #98D8D8;
+}
+.profile li.ice:after {content: 'Ice';}
+
+.profile li.bug{
+  background-color: #A8B820;
+}
+.profile li.bug:after {content: 'Bug';}
+
+.profile li.dragon{
+  background-color: #7038F8;
+}
+.profile li.dragon:after {content: 'Dragon';}
+
+.profile li.ghost{
+  background-color: #705898;
+}
+.profile li.ghost:after {content: 'Ghost';}
+ 
+.profile li.dark{
+  background-color: #705848;
+}
+.profile li.dark:after {content: 'Dark';} 
+
+.profile li.steel{
+  background-color: #B8B8D0;
+}
+.profile li.steel:after {content: 'Steel';}
+
+.profile li.fairy{
+  background-color: #EE99AC;
+}
+.profile li.fairy:after {content: 'Fairy';} 
+ 
+
+.profile .stat{
+  border-radius: 0.5em;
+  width: 7.8em;
+  background-color: #4E4B5C;
+  color: white;
+  padding: 0.3em;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0.4em;
+  list-style: none;
+}

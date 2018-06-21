@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  nav
+   input(type='search' id='pokesearch' name='pokesearch' placeholder='Search...')
+ 
+  .container
+    .row
+      .column
+        each pokemon in pokemons  
+           .profile
+              h2= pokemon.ename
+                span #{pokemon.id}
+              ul
+                each typetag in pokemon.type
+                  li(class='type ' + typetag)
+              ul
+                li.stat HP: #{pokemon.base.hp}
+                li.stat ATT: #{pokemon.base.att}
+                li.stat DEF: #{pokemon.base.def}
+                li.stat S. ATT: #{pokemon.base.satt}
+                li.stat S. DEF: #{pokemon.base.sdef}
+                li.stat SPD: #{pokemon.base.spd}
+  script(src='https://unpkg.com/umbrellajs')
+  script(src='/javascripts/progressive.js')
+  script(src='/javascripts/searching.js')
