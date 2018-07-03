@@ -1,5 +1,6 @@
-u('#btnMore').on('click', function(e) {
-       var offset = d.scrollTop + window.innerHeight;
+var d = document.documentElement;
+
+var buildingTiles = function(offset) {
        var action = '/pages/' + u(".container .row").length;
        var options = { method: 'GET' };
        var after = function(err, data){
@@ -40,4 +41,18 @@ u('#btnMore').on('click', function(e) {
          u("body").first().append(u(loading).first());
        };
       ajax(action, options, after, before);
+};
+
+u('#btnMore').on('click', function(e) {
+   var offset = d.scrollTop + window.innerHeight;
+    if(!u('#btnMore').hasClass('clear-results')){
+      buildingTiles(offset);
+    }else{
+      action = '/pages/0';
+      buildTiles(action)
+      u('#btnMore').removeClass('clear-results');
+      u('#btnMore').first().innerText = 'Load more';
+    }
+   
+
 });

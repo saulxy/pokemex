@@ -40,7 +40,7 @@ var buildTiles = function(action){
          u(loading).first().style.height = offset + "px"
          u("body").first().append(u(loading).first());
        };
-      console.log(u('#pokesearch').first().value.trim())
+      //console.log(u('#pokesearch').first().value.trim())
       ajax(action, options, after, before);
 }
 
@@ -49,8 +49,12 @@ u('#pokesearch').on('keyup', function(e){
   if(u('#pokesearch').first().value.trim() !== ''){
      action = '/search/' + u('#pokesearch').first().value.toLowerCase().trim()
     buildTiles(action)
+    u('#btnMore').addClass('clear-results');
+    u('#btnMore').first().innerText = 'Clear';
   }else if(u(".row").hasClass("result")){
     action = '/pages/0';
-    buildTiles(action)
+    buildTiles(action);
+    u('#btnMore').removeClass('clear-results');
+    u('#btnMore').first().innerText = 'Load more';
   }
 })

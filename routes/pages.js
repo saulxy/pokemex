@@ -14,7 +14,7 @@ db.defaults({ pokemon: [] }).write()
 /* GET pokemons listing. */
 router.get('/:page', function(req, res, next) {
     var pagenum = parseInt(req.params.page)
-    var pokemons = pagenum > 0 ? db.get('pokemon').sortBy('id').slice(40*pagenum,(40*pagenum) + 40).value()
+    var pokemons = pagenum >= 0 ? db.get('pokemon').sortBy('id').slice(40*pagenum,(40*pagenum) + 40).value()
                                : db.get('pokemon').sortBy('id').value()
     res.setHeader('Content-Type', 'application/json')
     res.send(pokemons)
