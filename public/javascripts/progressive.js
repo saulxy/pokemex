@@ -1,8 +1,5 @@
-window.addEventListener('scroll', function(e){
-  var d = document.documentElement;
-  var offset = d.scrollTop + window.innerHeight;
-  var height = d.offsetHeight;
-  if (offset === height && !u(".row").hasClass("result")) {
+u('#btnMore').on('click', function(e) {
+       var offset = d.scrollTop + window.innerHeight;
        var action = '/pages/' + u(".container .row").length;
        var options = { method: 'GET' };
        var after = function(err, data){
@@ -33,7 +30,6 @@ window.addEventListener('scroll', function(e){
               .append(stats)
               .first()
             )
-            //console.log(pokemon);
           });
        
        };
@@ -44,5 +40,4 @@ window.addEventListener('scroll', function(e){
          u("body").first().append(u(loading).first());
        };
       ajax(action, options, after, before);
-  }
-})
+});

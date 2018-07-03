@@ -6,10 +6,13 @@ body{
   background: url('resources/dadbe48e.png') repeat;
 }
 
+.fullzise{
+  width: 100%;
+}
+
 #loading{
   width: 100%;
   background: rgba(242,242,242,0.60);
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
