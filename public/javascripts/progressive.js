@@ -3,8 +3,15 @@ var d = document.documentElement;
 var buildingTiles = function(offset) {
        var action = '/pages/' + u(".container .row").length;
        var options = { method: 'GET' };
+       var numrows = 0;
        var after = function(err, data){
+         numrows = data.length;
          u('#loading').remove();
+             if(numrows <= 0){
+               u('#btnMore').first().innerText = 'No more Pokemon yet ;)';
+               u('#btnMore').attr('disabled','disabled');
+               return -1;
+             }
          u('.container').first().append(u('<div>').addClass('row').first())
          u('.container .row').last().append(u('<div>').addClass('column').first())
          data.forEach(function(pokemon) {
@@ -46,7 +53,7 @@ var buildingTiles = function(offset) {
 u('#btnMore').on('click', function(e) {
    var offset = d.scrollTop + window.innerHeight;
     if(!u('#btnMore').hasClass('clear-results')){
-      buildingTiles(offset);
+        buildingTiles(offset)
     }else{
       action = '/pages/0';
       buildTiles(action)

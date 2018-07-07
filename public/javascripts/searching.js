@@ -1,5 +1,6 @@
 var d = document.documentElement;
 var offset = d.scrollTop + window.innerHeight;
+u('#btnMore').first().removeAttribute('disable');
 
 var buildTiles = function(action){
        var options = { method: 'GET' };

@@ -60735,6 +60735,35 @@
         "fire",
         "water"
       ]
+    },
+    {
+      "base": {
+        "att": 55,
+        "def": 55,
+        "hp": 68,
+        "satt": 50,
+        "sdef": 50,
+        "spd": 42
+      },
+      "cname": "",
+      "ename": "Rowlet",
+      "id": "722",
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "flying"
+      ]
     }
   ]
 }
