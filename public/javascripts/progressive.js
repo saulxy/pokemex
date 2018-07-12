@@ -1,7 +1,7 @@
 var d = document.documentElement;
 
 var buildingTiles = function(offset) {
-       var action = '/pages/' + u(".container .row").length;
+       var action = '/pages/' + u(".profile").length / 40;
        var options = { method: 'GET' };
        var numrows = 0;
        var after = function(err, data){
@@ -12,8 +12,6 @@ var buildingTiles = function(offset) {
                u('#btnMore').attr('disabled','disabled');
                return -1;
              }
-         u('.container').first().append(u('<div>').addClass('row').first())
-         u('.container .row').last().append(u('<div>').addClass('column').first())
          data.forEach(function(pokemon) {
            var types = function(types){
              var output = '';
@@ -59,6 +57,7 @@ u('#btnMore').on('click', function(e) {
       buildTiles(action)
       u('#btnMore').removeClass('clear-results');
       u('#btnMore').first().innerText = 'Load more';
+      u('#pokesearch').first().value = '';
     }
    
 
