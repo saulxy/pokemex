@@ -1,4 +1,10 @@
 var d = document.documentElement;
+//u('.sprite').first().style.backgroundPosition='-96px -4px'
+
+u('.sprite').array(function(node, i){ return {'index':i+1,'obj':node}}).forEach(function(sprite){
+  //sprite.obj.style.backgroundPosition='-' +  46*sprite.index + 'px -2px';
+  //console.log(sprite.index)
+});
 
 var buildingTiles = function(offset) {
        var action = '/pages/' + u(".profile").length / 40;

@@ -48,6 +48,7 @@ nav input[type='search']{
   height: 14em;
   display: inline-block;
   margin: 1em;
+  position: relative;
 }
 
 .profile h2{
@@ -168,6 +169,19 @@ nav input[type='search']{
 }
 .profile li.fairy:after {content: 'Fairy';} 
  
+.profile .sprite{
+  position: absolute;
+  width:40px;
+  height:30px;
+  top: 3em;
+  left: 11em;
+  background-image:url(/images/nationalGen8sprites.png);
+  background-position:-46px -2px;
+  background-repeat: no-repeat;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
 
 .profile .stat{
   border-radius: 0.5em;
