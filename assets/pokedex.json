@@ -60764,6 +60764,2326 @@
         "grass",
         "flying"
       ]
+    },
+    {
+      "base": {
+        "att": 75,
+        "def": 75,
+        "hp": 78,
+        "satt": 70,
+        "sdef": 70,
+        "spd": 52
+      },
+      "cname": "",
+      "ename": "Dartrix",
+      "id": "723",
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 107,
+        "def": 75,
+        "hp": 78,
+        "satt": 100,
+        "sdef": 100,
+        "spd": 70
+      },
+      "cname": "",
+      "ename": "Decidueye",
+      "id": "724",
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "ghost"
+      ]
+    },
+    {
+      "base": {
+        "att": 107,
+        "def": 75,
+        "hp": 78,
+        "satt": 100,
+        "sdef": 100,
+        "spd": 70
+      },
+      "cname": "",
+      "ename": "Decidueye",
+      "id": 724,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "ghost"
+      ]
+    },
+    {
+      "base": {
+        "att": 65,
+        "def": 40,
+        "hp": 45,
+        "satt": 60,
+        "sdef": 40,
+        "spd": 70
+      },
+      "cname": "",
+      "ename": "Litten",
+      "id": 725,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fire"
+      ]
+    },
+    {
+      "base": {
+        "att": 85,
+        "def": 50,
+        "hp": 65,
+        "satt": 80,
+        "sdef": 50,
+        "spd": 90
+      },
+      "cname": "",
+      "ename": "Torracat",
+      "id": 726,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fire"
+      ]
+    },
+    {
+      "base": {
+        "att": 115,
+        "def": 90,
+        "hp": 95,
+        "satt": 80,
+        "sdef": 90,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Incineroar",
+      "id": 727,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fire",
+        "dark"
+      ]
+    },
+    {
+      "base": {
+        "att": 54,
+        "def": 54,
+        "hp": 50,
+        "satt": 66,
+        "sdef": 56,
+        "spd": 40
+      },
+      "cname": "",
+      "ename": "Popplio",
+      "id": 728,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 69,
+        "def": 69,
+        "hp": 60,
+        "satt": 91,
+        "sdef": 81,
+        "spd": 50
+      },
+      "cname": "",
+      "ename": "Brionne",
+      "id": 729,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 74,
+        "def": 74,
+        "hp": 80,
+        "satt": 126,
+        "sdef": 116,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Primarina",
+      "id": 730,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 75,
+        "def": 30,
+        "hp": 35,
+        "satt": 30,
+        "sdef": 30,
+        "spd": 65
+      },
+      "cname": "",
+      "ename": "Pikipek",
+      "id": 731,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 85,
+        "def": 50,
+        "hp": 55,
+        "satt": 40,
+        "sdef": 50,
+        "spd": 75
+      },
+      "cname": "",
+      "ename": "Trumbeak",
+      "id": 732,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 120,
+        "def": 75,
+        "hp": 80,
+        "satt": 75,
+        "sdef": 75,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Toucannon",
+      "id": 733,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 70,
+        "def": 30,
+        "hp": 48,
+        "satt": 30,
+        "sdef": 30,
+        "spd": 45
+      },
+      "cname": "",
+      "ename": "Yungoos",
+      "id": 734,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal"
+      ]
+    },
+    {
+      "base": {
+        "att": 110,
+        "def": 60,
+        "hp": 88,
+        "satt": 55,
+        "sdef": 60,
+        "spd": 45
+      },
+      "cname": "",
+      "ename": "Gumshoos",
+      "id": 735,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal"
+      ]
+    },
+    {
+      "base": {
+        "att": 62,
+        "def": 45,
+        "hp": 47,
+        "satt": 55,
+        "sdef": 45,
+        "spd": 46
+      },
+      "cname": "",
+      "ename": "Grubbin",
+      "id": 736,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug"
+      ]
+    },
+    {
+      "base": {
+        "att": 82,
+        "def": 95,
+        "hp": 57,
+        "satt": 55,
+        "sdef": 75,
+        "spd": 36
+      },
+      "cname": "",
+      "ename": "Charjabug",
+      "id": 737,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "electric"
+      ]
+    },
+    {
+      "base": {
+        "att": 70,
+        "def": 90,
+        "hp": 77,
+        "satt": 145,
+        "sdef": 75,
+        "spd": 43
+      },
+      "cname": "",
+      "ename": "Vikavolt",
+      "id": 738,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "electric"
+      ]
+    },
+    {
+      "base": {
+        "att": 82,
+        "def": 57,
+        "hp": 47,
+        "satt": 42,
+        "sdef": 47,
+        "spd": 63
+      },
+      "cname": "",
+      "ename": "Crabrawler",
+      "id": 739,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 132,
+        "def": 77,
+        "hp": 97,
+        "satt": 62,
+        "sdef": 67,
+        "spd": 43
+      },
+      "cname": "",
+      "ename": "Crabominable",
+      "id": 740,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fighting",
+        "ice"
+      ]
+    },
+    {
+      "base": {
+        "att": 70,
+        "def": 70,
+        "hp": 75,
+        "satt": 98,
+        "sdef": 70,
+        "spd": 93
+      },
+      "cname": "",
+      "ename": "Oricorio-baile",
+      "id": 741,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fire",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 45,
+        "def": 40,
+        "hp": 40,
+        "satt": 55,
+        "sdef": 40,
+        "spd": 84
+      },
+      "cname": "",
+      "ename": "Cutiefly",
+      "id": 742,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 55,
+        "def": 60,
+        "hp": 60,
+        "satt": 95,
+        "sdef": 70,
+        "spd": 124
+      },
+      "cname": "",
+      "ename": "Ribombee",
+      "id": 743,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 65,
+        "def": 40,
+        "hp": 45,
+        "satt": 30,
+        "sdef": 40,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Rockruff",
+      "id": 744,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "rock"
+      ]
+    },
+    {
+      "base": {
+        "att": 115,
+        "def": 65,
+        "hp": 75,
+        "satt": 55,
+        "sdef": 65,
+        "spd": 112
+      },
+      "cname": "",
+      "ename": "Lycanroc-midday",
+      "id": 745,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "rock"
+      ]
+    },
+    {
+      "base": {
+        "att": 20,
+        "def": 20,
+        "hp": 45,
+        "satt": 25,
+        "sdef": 25,
+        "spd": 40
+      },
+      "cname": "",
+      "ename": "Wishiwashi-solo",
+      "id": 746,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 53,
+        "def": 62,
+        "hp": 50,
+        "satt": 43,
+        "sdef": 52,
+        "spd": 45
+      },
+      "cname": "",
+      "ename": "Mareanie",
+      "id": 747,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "poison",
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 63,
+        "def": 152,
+        "hp": 50,
+        "satt": 53,
+        "sdef": 142,
+        "spd": 35
+      },
+      "cname": "",
+      "ename": "Toxapex",
+      "id": 748,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "poison",
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 100,
+        "def": 70,
+        "hp": 70,
+        "satt": 45,
+        "sdef": 55,
+        "spd": 45
+      },
+      "cname": "",
+      "ename": "Mudbray",
+      "id": 749,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "ground"
+      ]
+    },
+    {
+      "base": {
+        "att": 125,
+        "def": 100,
+        "hp": 100,
+        "satt": 55,
+        "sdef": 85,
+        "spd": 35
+      },
+      "cname": "",
+      "ename": "Mudsdale",
+      "id": 750,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "ground"
+      ]
+    },
+    {
+      "base": {
+        "att": 40,
+        "def": 52,
+        "hp": 38,
+        "satt": 40,
+        "sdef": 72,
+        "spd": 27
+      },
+      "cname": "",
+      "ename": "Dewpider",
+      "id": 751,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water",
+        "bug"
+      ]
+    },
+    {
+      "base": {
+        "att": 70,
+        "def": 92,
+        "hp": 68,
+        "satt": 50,
+        "sdef": 132,
+        "spd": 42
+      },
+      "cname": "",
+      "ename": "Araquanid",
+      "id": 752,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water",
+        "bug"
+      ]
+    },
+    {
+      "base": {
+        "att": 55,
+        "def": 35,
+        "hp": 40,
+        "satt": 50,
+        "sdef": 35,
+        "spd": 35
+      },
+      "cname": "",
+      "ename": "Fomantis",
+      "id": 753,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass"
+      ]
+    },
+    {
+      "base": {
+        "att": 105,
+        "def": 90,
+        "hp": 70,
+        "satt": 80,
+        "sdef": 90,
+        "spd": 45
+      },
+      "cname": "",
+      "ename": "Lurantis",
+      "id": 754,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass"
+      ]
+    },
+    {
+      "base": {
+        "att": 35,
+        "def": 55,
+        "hp": 40,
+        "satt": 65,
+        "sdef": 75,
+        "spd": 15
+      },
+      "cname": "",
+      "ename": "Morelull",
+      "id": 755,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 45,
+        "def": 80,
+        "hp": 60,
+        "satt": 90,
+        "sdef": 100,
+        "spd": 30
+      },
+      "cname": "",
+      "ename": "Shiinotic",
+      "id": 756,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 44,
+        "def": 40,
+        "hp": 48,
+        "satt": 71,
+        "sdef": 40,
+        "spd": 77
+      },
+      "cname": "",
+      "ename": "Salandit",
+      "id": 757,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "poison",
+        "fire"
+      ]
+    },
+    {
+      "base": {
+        "att": 64,
+        "def": 60,
+        "hp": 68,
+        "satt": 111,
+        "sdef": 60,
+        "spd": 117
+      },
+      "cname": "",
+      "ename": "Salazzle",
+      "id": 758,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "poison",
+        "fire"
+      ]
+    },
+    {
+      "base": {
+        "att": 75,
+        "def": 50,
+        "hp": 70,
+        "satt": 45,
+        "sdef": 50,
+        "spd": 50
+      },
+      "cname": "",
+      "ename": "Stufful",
+      "id": 759,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 125,
+        "def": 80,
+        "hp": 120,
+        "satt": 55,
+        "sdef": 60,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Bewear",
+      "id": 760,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 30,
+        "def": 38,
+        "hp": 42,
+        "satt": 30,
+        "sdef": 38,
+        "spd": 32
+      },
+      "cname": "",
+      "ename": "Bounsweet",
+      "id": 761,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass"
+      ]
+    },
+    {
+      "base": {
+        "att": 40,
+        "def": 48,
+        "hp": 52,
+        "satt": 40,
+        "sdef": 48,
+        "spd": 62
+      },
+      "cname": "",
+      "ename": "Steenee",
+      "id": 762,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass"
+      ]
+    },
+    {
+      "base": {
+        "att": 120,
+        "def": 98,
+        "hp": 72,
+        "satt": 50,
+        "sdef": 98,
+        "spd": 72
+      },
+      "cname": "",
+      "ename": "Tsareena",
+      "id": 763,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass"
+      ]
+    },
+    {
+      "base": {
+        "att": 52,
+        "def": 90,
+        "hp": 51,
+        "satt": 82,
+        "sdef": 110,
+        "spd": 100
+      },
+      "cname": "",
+      "ename": "Comfey",
+      "id": 764,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 60,
+        "def": 80,
+        "hp": 90,
+        "satt": 90,
+        "sdef": 110,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Oranguru",
+      "id": 765,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "psychic"
+      ]
+    },
+    {
+      "base": {
+        "att": 120,
+        "def": 90,
+        "hp": 100,
+        "satt": 40,
+        "sdef": 60,
+        "spd": 80
+      },
+      "cname": "",
+      "ename": "Passimian",
+      "id": 766,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 35,
+        "def": 40,
+        "hp": 25,
+        "satt": 20,
+        "sdef": 30,
+        "spd": 80
+      },
+      "cname": "",
+      "ename": "Wimpod",
+      "id": 767,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 125,
+        "def": 140,
+        "hp": 75,
+        "satt": 60,
+        "sdef": 90,
+        "spd": 40
+      },
+      "cname": "",
+      "ename": "Golisopod",
+      "id": 768,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 55,
+        "def": 80,
+        "hp": 55,
+        "satt": 70,
+        "sdef": 45,
+        "spd": 15
+      },
+      "cname": "",
+      "ename": "Sandygast",
+      "id": 769,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "ghost",
+        "ground"
+      ]
+    },
+    {
+      "base": {
+        "att": 75,
+        "def": 110,
+        "hp": 85,
+        "satt": 100,
+        "sdef": 75,
+        "spd": 35
+      },
+      "cname": "",
+      "ename": "Palossand",
+      "id": 770,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "ghost",
+        "ground"
+      ]
+    },
+    {
+      "base": {
+        "att": 60,
+        "def": 130,
+        "hp": 55,
+        "satt": 30,
+        "sdef": 130,
+        "spd": 5
+      },
+      "cname": "",
+      "ename": "Pyukumuku",
+      "id": 771,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water"
+      ]
+    },
+    {
+      "base": {
+        "att": 95,
+        "def": 95,
+        "hp": 95,
+        "satt": 95,
+        "sdef": 95,
+        "spd": 59
+      },
+      "cname": "",
+      "ename": "Type-null",
+      "id": 772,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal"
+      ]
+    },
+    {
+      "base": {
+        "att": 95,
+        "def": 95,
+        "hp": 95,
+        "satt": 95,
+        "sdef": 95,
+        "spd": 95
+      },
+      "cname": "",
+      "ename": "Silvally-fairy",
+      "id": 773,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal"
+      ]
+    },
+    {
+      "base": {
+        "att": 60,
+        "def": 100,
+        "hp": 60,
+        "satt": 60,
+        "sdef": 100,
+        "spd": 60
+      },
+      "cname": "",
+      "ename": "Minior-red-meteor",
+      "id": 774,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "rock",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 115,
+        "def": 65,
+        "hp": 65,
+        "satt": 75,
+        "sdef": 95,
+        "spd": 65
+      },
+      "cname": "",
+      "ename": "Komala",
+      "id": 775,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal"
+      ]
+    },
+    {
+      "base": {
+        "att": 78,
+        "def": 135,
+        "hp": 60,
+        "satt": 91,
+        "sdef": 85,
+        "spd": 36
+      },
+      "cname": "",
+      "ename": "Turtonator",
+      "id": 776,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fire",
+        "dragon"
+      ]
+    },
+    {
+      "base": {
+        "att": 98,
+        "def": 63,
+        "hp": 65,
+        "satt": 40,
+        "sdef": 73,
+        "spd": 96
+      },
+      "cname": "",
+      "ename": "Togedemaru",
+      "id": 777,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "electric",
+        "steel"
+      ]
+    },
+    {
+      "base": {
+        "att": 90,
+        "def": 80,
+        "hp": 55,
+        "satt": 50,
+        "sdef": 105,
+        "spd": 96
+      },
+      "cname": "",
+      "ename": "Mimikyu-disguised",
+      "id": 778,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "ghost",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 105,
+        "def": 70,
+        "hp": 68,
+        "satt": 70,
+        "sdef": 70,
+        "spd": 92
+      },
+      "cname": "",
+      "ename": "Bruxish",
+      "id": 779,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "base": {
+        "att": 60,
+        "def": 85,
+        "hp": 78,
+        "satt": 135,
+        "sdef": 91,
+        "spd": 36
+      },
+      "cname": "",
+      "ename": "Drampa",
+      "id": 780,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "normal",
+        "dragon"
+      ]
+    },
+    {
+      "base": {
+        "att": 131,
+        "def": 100,
+        "hp": 70,
+        "satt": 86,
+        "sdef": 90,
+        "spd": 40
+      },
+      "cname": "",
+      "ename": "Dhelmise",
+      "id": 781,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "base": {
+        "att": 55,
+        "def": 65,
+        "hp": 45,
+        "satt": 45,
+        "sdef": 45,
+        "spd": 45
+      },
+      "cname": "",
+      "ename": "Jangmo-o",
+      "id": 782,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "dragon"
+      ]
+    },
+    {
+      "base": {
+        "att": 75,
+        "def": 90,
+        "hp": 55,
+        "satt": 65,
+        "sdef": 70,
+        "spd": 65
+      },
+      "cname": "",
+      "ename": "Hakamo-o",
+      "id": 783,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "dragon",
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 110,
+        "def": 125,
+        "hp": 75,
+        "satt": 100,
+        "sdef": 105,
+        "spd": 85
+      },
+      "cname": "",
+      "ename": "Kommo-o",
+      "id": 784,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "dragon",
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 115,
+        "def": 85,
+        "hp": 70,
+        "satt": 95,
+        "sdef": 75,
+        "spd": 130
+      },
+      "cname": "",
+      "ename": "Tapu-koko",
+      "id": 785,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "electric",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 85,
+        "def": 75,
+        "hp": 70,
+        "satt": 130,
+        "sdef": 115,
+        "spd": 95
+      },
+      "cname": "",
+      "ename": "Tapu-lele",
+      "id": 786,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "psychic",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 130,
+        "def": 115,
+        "hp": 70,
+        "satt": 85,
+        "sdef": 95,
+        "spd": 75
+      },
+      "cname": "",
+      "ename": "Tapu-bulu",
+      "id": 787,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 75,
+        "def": 115,
+        "hp": 70,
+        "satt": 95,
+        "sdef": 130,
+        "spd": 85
+      },
+      "cname": "",
+      "ename": "Tapu-fini",
+      "id": 788,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "water",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 29,
+        "def": 31,
+        "hp": 43,
+        "satt": 29,
+        "sdef": 31,
+        "spd": 37
+      },
+      "cname": "",
+      "ename": "Cosmog",
+      "id": 789,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "psychic"
+      ]
+    },
+    {
+      "base": {
+        "att": 29,
+        "def": 131,
+        "hp": 43,
+        "satt": 29,
+        "sdef": 131,
+        "spd": 37
+      },
+      "cname": "",
+      "ename": "Cosmoem",
+      "id": 790,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "psychic"
+      ]
+    },
+    {
+      "base": {
+        "att": 137,
+        "def": 107,
+        "hp": 137,
+        "satt": 113,
+        "sdef": 89,
+        "spd": 97
+      },
+      "cname": "",
+      "ename": "Solgaleo",
+      "id": 791,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "psychic",
+        "steel"
+      ]
+    },
+    {
+      "base": {
+        "att": 113,
+        "def": 89,
+        "hp": 137,
+        "satt": 137,
+        "sdef": 107,
+        "spd": 97
+      },
+      "cname": "",
+      "ename": "Lunala",
+      "id": 792,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "psychic",
+        "ghost"
+      ]
+    },
+    {
+      "base": {
+        "att": 53,
+        "def": 47,
+        "hp": 109,
+        "satt": 127,
+        "sdef": 131,
+        "spd": 103
+      },
+      "cname": "",
+      "ename": "Nihilego",
+      "id": 793,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "rock",
+        "poison"
+      ]
+    },
+    {
+      "base": {
+        "att": 139,
+        "def": 139,
+        "hp": 107,
+        "satt": 53,
+        "sdef": 53,
+        "spd": 79
+      },
+      "cname": "",
+      "ename": "Buzzwole",
+      "id": 794,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 137,
+        "def": 37,
+        "hp": 71,
+        "satt": 137,
+        "sdef": 37,
+        "spd": 151
+      },
+      "cname": "",
+      "ename": "Pheromosa",
+      "id": 795,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "bug",
+        "fighting"
+      ]
+    },
+    {
+      "base": {
+        "att": 89,
+        "def": 71,
+        "hp": 83,
+        "satt": 173,
+        "sdef": 71,
+        "spd": 83
+      },
+      "cname": "",
+      "ename": "Xurkitree",
+      "id": 796,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "electric"
+      ]
+    },
+    {
+      "base": {
+        "att": 101,
+        "def": 103,
+        "hp": 97,
+        "satt": 107,
+        "sdef": 101,
+        "spd": 61
+      },
+      "cname": "",
+      "ename": "Celesteela",
+      "id": 797,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "steel",
+        "flying"
+      ]
+    },
+    {
+      "base": {
+        "att": 181,
+        "def": 131,
+        "hp": 59,
+        "satt": 59,
+        "sdef": 31,
+        "spd": 109
+      },
+      "cname": "",
+      "ename": "Kartana",
+      "id": 798,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "grass",
+        "steel"
+      ]
+    },
+    {
+      "base": {
+        "att": 101,
+        "def": 53,
+        "hp": 223,
+        "satt": 97,
+        "sdef": 53,
+        "spd": 43
+      },
+      "cname": "",
+      "ename": "Guzzlord",
+      "id": 799,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "base": {
+        "att": 107,
+        "def": 101,
+        "hp": 97,
+        "satt": 127,
+        "sdef": 89,
+        "spd": 79
+      },
+      "cname": "",
+      "ename": "Necrozma",
+      "id": 800,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "psychic"
+      ]
+    },
+    {
+      "base": {
+        "att": 95,
+        "def": 115,
+        "hp": 80,
+        "satt": 130,
+        "sdef": 115,
+        "spd": 65
+      },
+      "cname": "",
+      "ename": "Magearna",
+      "id": 801,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "steel",
+        "fairy"
+      ]
+    },
+    {
+      "base": {
+        "att": 125,
+        "def": 80,
+        "hp": 90,
+        "satt": 90,
+        "sdef": 90,
+        "spd": 125
+      },
+      "cname": "",
+      "ename": "Marshadow",
+      "id": 802,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fighting",
+        "ghost"
+      ]
     }
   ]
 }

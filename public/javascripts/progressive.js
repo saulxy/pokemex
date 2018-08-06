@@ -1,7 +1,7 @@
 var d = document.documentElement;
 
 var buildingTiles = function(offset) {
-       var action = '/pages/' + u(".profile").length / 40;
+       var action = '/pages/' + Math.ceil(u(".profile").length / 40);
        var options = { method: 'GET' };
        var numrows = 0;
        var after = function(err, data){
