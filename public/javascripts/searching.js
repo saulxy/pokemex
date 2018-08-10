@@ -4,7 +4,7 @@ u('#btnMore').first().removeAttribute('disable');
 
 var buildTiles = function(action){
        var options = { method: 'GET' };
-       var after = function(err, data){
+       var after = function(data){
          u('#loading').remove();
          u('.container').html('<div class="row' + (action.indexOf('pages') < 0 ? ' result' : '') + '"></div>')
          u('.container .row').first().append(u('<div>').addClass('column').first())
@@ -41,8 +41,13 @@ var buildTiles = function(action){
          u(loading).first().style.height = offset + "px"
          u("body").first().append(u(loading).first());
        };
-      //console.log(u('#pokesearch').first().value.trim())
-      ajax(action, options, after, before);
+      
+      before();
+      fetch(action, options)
+        .then(response => response.json())
+        .then(data => after(data)).catch(function(error) {
+        console.log('There has been a problem with your fetch operation: ', error.message);
+      });
 }
 
 u('#pokesearch').on('keyup', function(e){

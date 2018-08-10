@@ -4,7 +4,7 @@ var buildingTiles = function(offset) {
        var action = '/pages/' + Math.ceil(u(".profile").length / 40);
        var options = { method: 'GET' };
        var numrows = 0;
-       var after = function(err, data){
+       var after = function(data){
          numrows = data.length;
          u('#loading').remove();
              if(numrows <= 0){
@@ -45,7 +45,12 @@ var buildingTiles = function(offset) {
          u(loading).first().style.height = offset + "px"
          u("body").first().append(u(loading).first());
        };
-      ajax(action, options, after, before);
+      before();
+      fetch(action, options)
+        .then(response => response.json())
+        .then(data => after(data)).catch(function(error) {
+        console.log('There has been a problem with your fetch operation: ', error.message);
+      });
 };
 
 u('#btnMore').on('click', function(e) {
