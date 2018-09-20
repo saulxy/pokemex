@@ -29,7 +29,7 @@ var buildingTiles = function(offset) {
                   'S. DEF: ' + pokemon.base.sdef,
                   'SPD: ' + pokemon.base.spd]).first()
             
-            u('.container .row .column').last().append(              
+            u('.parent').last().append(              
               u('<div>').addClass('profile')
               .append('<h2>' + pokemon.ename + '<span>' + pokemon.id +'</span></h2>')
               .append('<ul>' + types(pokemon.type) + '</ul>')

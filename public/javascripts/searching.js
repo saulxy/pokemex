@@ -6,8 +6,7 @@ var buildTiles = function(action){
        var options = { method: 'GET' };
        var after = function(data){
          u('#loading').remove();
-         u('.container').html('<div class="row' + (action.indexOf('pages') < 0 ? ' result' : '') + '"></div>')
-         u('.container .row').first().append(u('<div>').addClass('column').first())
+         u('.parent div').remove();
          data.forEach(function(pokemon) {
            var types = function(types){
              var output = '';
@@ -25,7 +24,7 @@ var buildTiles = function(action){
                   'S. DEF: ' + pokemon.base.sdef,
                   'SPD: ' + pokemon.base.spd]).first()
             
-            u('.container .row .column').last().append(              
+            u('.parent').last().append(              
               u('<div>').addClass('profile')
               .append('<h2>' + pokemon.ename + '<span>' + pokemon.id +'</span></h2>')
               .append('<ul>' + types(pokemon.type) + '</ul>')
@@ -57,7 +56,7 @@ u('#pokesearch').on('keyup', function(e){
     buildTiles(action)
     u('#btnMore').addClass('clear-results');
     u('#btnMore').first().innerText = 'Clear';
-  }else if(u(".row").hasClass("result")){
+  }else{
     action = '/pages/0';
     buildTiles(action);
     u('#btnMore').removeClass('clear-results');

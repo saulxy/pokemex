@@ -4,9 +4,7 @@ block content
   nav
    input(type='search' id='pokesearch' name='pokesearch' placeholder='Search...')
  
-  .container
-    .row
-      .column
+  .parent
         each pokemon in pokemons  
            .profile
               h2= pokemon.ename

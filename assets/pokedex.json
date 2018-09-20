@@ -60805,35 +60805,6 @@
       },
       "cname": "",
       "ename": "Decidueye",
-      "id": "724",
-      "jname": "-",
-      "skills": {
-        "level_up": [
-          0
-        ],
-        "tm": [
-          0
-        ],
-        "tutor": [
-          0
-        ]
-      },
-      "type": [
-        "grass",
-        "ghost"
-      ]
-    },
-    {
-      "base": {
-        "att": 107,
-        "def": 75,
-        "hp": 78,
-        "satt": 100,
-        "sdef": 100,
-        "spd": 70
-      },
-      "cname": "",
-      "ename": "Decidueye",
       "id": 724,
       "jname": "-",
       "skills": {
