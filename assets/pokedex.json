@@ -63055,6 +63055,149 @@
         "fighting",
         "ghost"
       ]
+    },
+    {
+      "base": {
+        "att": 73,
+        "def": 67,
+        "hp": 67,
+        "satt": 73,
+        "sdef": 67,
+        "spd": 73
+      },
+      "cname": "",
+      "ename": "Poipole",
+      "id": 803,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "poison"
+      ]
+    },
+    {
+      "base": {
+        "att": 73,
+        "def": 73,
+        "hp": 73,
+        "satt": 127,
+        "sdef": 73,
+        "spd": 121
+      },
+      "cname": "",
+      "ename": "Naganadel",
+      "id": 804,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "poison",
+        "dragon"
+      ]
+    },
+    {
+      "base": {
+        "att": 131,
+        "def": 211,
+        "hp": 61,
+        "satt": 53,
+        "sdef": 101,
+        "spd": 13
+      },
+      "cname": "",
+      "ename": "Stakataka",
+      "id": 805,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "rock",
+        "steel"
+      ]
+    },
+    {
+      "base": {
+        "att": 127,
+        "def": 53,
+        "hp": 53,
+        "satt": 151,
+        "sdef": 79,
+        "spd": 107
+      },
+      "cname": "",
+      "ename": "Blacephalon",
+      "id": 806,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "fire",
+        "ghost"
+      ]
+    },
+    {
+      "base": {
+        "att": 112,
+        "def": 75,
+        "hp": 88,
+        "satt": 102,
+        "sdef": 80,
+        "spd": 143
+      },
+      "cname": "",
+      "ename": "Zeraora",
+      "id": 807,
+      "jname": "-",
+      "skills": {
+        "level_up": [
+          0
+        ],
+        "tm": [
+          0
+        ],
+        "tutor": [
+          0
+        ]
+      },
+      "type": [
+        "electric"
+      ]
     }
   ]
 }

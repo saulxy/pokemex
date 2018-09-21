@@ -39,6 +39,8 @@ nav input[type='search']{
 .parent{
   display: flex;
   flex-flow: row wrap;
+  width: 95%;
+  margin: 0 auto;
   margin-top: 3.5em;
 }
 
@@ -50,11 +52,14 @@ nav input[type='search']{
   height: 14em;
   display: inline-block;
   margin: 1em;
+  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .profile h2{
   border-radius: 1em 0 0 0;
   font-size: 1.2em;
+  letter-spacing: 0.01em;
   padding: 0.5em;
   background-color: #C5D1EB;
   margin: 0 auto;
