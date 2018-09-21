@@ -3,7 +3,7 @@ extends layout
 block content
   nav
    input(type='search' id='pokesearch' name='pokesearch' placeholder='Search...')
- 
+  button(id='incognito' class='button button-black') Incognito
   .parent
         each pokemon in pokemons  
            .profile
@@ -24,3 +24,4 @@ block content
   script(src='https://unpkg.com/umbrellajs')
   script(src='/javascripts/progressive.js')
   script(src='/javascripts/searching.js')
+  script(src='/javascripts/incognito.js')
