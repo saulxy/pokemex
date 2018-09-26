@@ -1,13 +1,42 @@
 /*
   Color theme: https://coolors.co/
-  coolors.co/4381c1-c5d1eb-92afd7-5a7684-4e4b5c 
+  Normal: https://coolors.co/4381c1-c5d1eb-92afd7-5a7684-4e4b5c 
+  Incognito: https://coolors.co/2a2423-454544-686868-bcbcbc-ffffff
 */
 body{
   background: url('resources/dadbe48e.png') repeat;
 }
 
+body.body-incognito{
+  background: none;
+  background-color: #2A2423;
+}
+
+.button-black {
+  background-color: black;
+  border-color: black;
+}
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: transparent;
+  color: black;
+}
+.button-black.button-clear {
+  border-color: transparent;
+}
+
 .fullzise{
   width: 100%;
+}
+
+#incognito{
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  width: 12%;
+  height: 3.5em;
+  position: fixed;
+  z-index: 4;
 }
 
 #loading{
@@ -26,7 +55,7 @@ nav{
   position: fixed;
   top: 0;
   left:0;
-  width: 100%;
+  width: 87%;
   height: 4.5em;
   z-index: 3;
   margin:0;
@@ -56,6 +85,10 @@ nav input[type='search']{
   letter-spacing: 0.04em;
 }
 
+.profile-incognito{
+  background-color: #454544;
+}
+
 .profile h2{
   border-radius: 1em 0 0 0;
   font-size: 1.2em;
@@ -64,6 +97,11 @@ nav input[type='search']{
   background-color: #C5D1EB;
   margin: 0 auto;
   color: #4E4B5C;
+}
+
+.profile h2.h2-incognito{
+  background-color: #686868;
+  color: #FFFFFF;
 }
 
 .profile h2 span{
@@ -173,7 +211,11 @@ nav input[type='search']{
 .profile li.fairy{
   background-color: #EE99AC;
 }
-.profile li.fairy:after {content: 'Fairy';} 
+.profile li.fairy:after {content: 'Fairy';}
+
+.profile li.li-incognito{
+  background-color: #686868;
+}
  
 
 .profile .stat{
