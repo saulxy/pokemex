@@ -8,14 +8,15 @@ var buildTiles = function(action){
          u('#loading').remove();
          u('.parent div').remove();
          data.forEach(function(pokemon) {
+        	 var theme = sessionStorage.getItem('theme') ? sessionStorage.getItem('theme') : "normal";
            var types = function(types){
              var output = '';
              for(i=0;i < types.length;i++){
-               output+= '<li class="type ' + types[i] + '"></i>';
+               output+= '<li class="type ' + types[i] + ' li-' + theme + '"></i>';
              }
                return output;
            };
-           var cb = function(txt){ return "<li class='stat'>" + txt + "</li>" };
+           var cb = function(txt){ return "<li class='stat li-" + theme + "'>" + txt + "</li>" };
            var stats = u("<ul>").append(cb, [
                   'HP:' + pokemon.base.hp,
                   'ATT: ' + pokemon.base.att,
@@ -25,8 +26,8 @@ var buildTiles = function(action){
                   'SPD: ' + pokemon.base.spd]).first()
             
             u('.parent').last().append(              
-              u('<div>').addClass('profile')
-              .append('<h2>' + pokemon.ename + '<span>' + pokemon.id +'</span></h2>')
+              u('<div>').addClass('profile').addClass('profile-' + theme)
+              .append("<h2 class='h2-" + theme + "'>" + pokemon.ename + '<span>' + pokemon.id +'</span></h2>')
               .append('<ul>' + types(pokemon.type) + '</ul>')
               .append(stats)
               .first()
